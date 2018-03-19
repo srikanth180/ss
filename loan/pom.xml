@@ -26,7 +26,7 @@
     <repository>
         <id>my-release</id>
         <name>my-release</name>
-        <url>http://ec2-54-149-160-239.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/my-release/</url>
+        <url>http:http://ec2-54-191-61-64.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/my-release/</url>
     </repository>
     <snapshotRepository>
       <id>my-snapshot</id>
