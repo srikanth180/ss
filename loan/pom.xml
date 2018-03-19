@@ -4,7 +4,7 @@
 
   <groupId>com.st.bank</groupId>
   <artifactId>loan</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
 
   <name>loan</name>
@@ -28,5 +28,10 @@
         <name>my-release</name>
         <url>http://ec2-54-149-160-239.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/my-release/</url>
     </repository>
+    <snapshotRepository>
+      <id>my-snapshot</id>
+      <name>my-snapshot</name>
+      <url>http://ec2-54-149-160-239.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/my-snapshot/</url>
+    </snapshotRepository>
 </distributionManagement> 
 </project>
